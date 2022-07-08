@@ -1,0 +1,24 @@
+table{
+  margin : auto;
+}
+td{
+  height: 140px;
+  width: 140px;
+  font-size: 100px;
+  text-align: center;
+  color: green;
+}
+.vertical{
+  border-left: solid 2px green;
+  border-right: solid 2px green;
+}
+.horizontal{
+  border-top: solid 2px green;
+  border-bottom: solid 2px green;
+}
+td:hover{
+  border: solid 1px red;
+}
+input{
+  padding: 5px;
+}
